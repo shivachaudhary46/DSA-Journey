@@ -39,6 +39,6 @@ this repository is your one-stop solution to understanding and mastering DSA con
     </ul>
 
 
-<h3>Join the Journey:</h3>
+<h3>Join the Journey</h3>
 Start exploring, practicing, and applying your skills. Contribute to the repository, share your solutions, and level up your DSA expertise!
 
