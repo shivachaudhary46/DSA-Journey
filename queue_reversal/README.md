@@ -29,4 +29,4 @@ After reversing the given elements of the queue, the resultant queue will be:
 2. The stack can help store elements temporarily while popping and pushing them back to achieve the reversed order.
 3. If recursion is used, keep dequeueing elements, reverse the rest of the queue, and then enqueue the element backwards
 
-### expected time complexity O(n)<br> = O(n)+O(n)<br> = 2O(n)<br> =  O(n).<br> space complexity<br>  O(n)
+### expected time complexity O(n)<br> <p>= O(n)+O(n)<br> = 2O(n)<br> =  O(n).<br> </p> space complexity<br>  O(n)
