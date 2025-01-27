@@ -5,7 +5,7 @@ Whether you're a beginner looking to get started or an intermediate coder aiming
 this repository is your one-stop solution to understanding and mastering DSA concepts.
 
 <h3>what you`ll learn??</h3>
-  ul>
+  <ul>
   <li>leetcode solutions with explanation</li>
   <li>Data Structures</li>
    <ul>
@@ -28,14 +28,16 @@ this repository is your one-stop solution to understanding and mastering DSA con
       <li>Backtracking, and more.</li>
     </ul>
   </li>
-  <li>Fourth item</li>
 </ul>
 
 <h3>What You’ll Gain??</h3>
-- A solid understanding of core DSA concepts.
-- The ability to approach coding interviews with confidence.
-- Problem-solving techniques that can be applied to real-world software development.
-- Knowledge to optimize code and make it more efficient.
+    <ul>
+      <li>A solid understanding of core DSA concepts.</li>
+      <li>The ability to approach coding interviews with confidence.</li>
+      <li>Problem-solving techniques that can be applied to real-world software development.</li>
+      <li>Knowledge to optimize code and make it more efficient.</li>
+    </ul>
+
 
 <h3>Join the Journey:</h3>
 Start exploring, practicing, and applying your skills. Contribute to the repository, share your solutions, and level up your DSA expertise!
