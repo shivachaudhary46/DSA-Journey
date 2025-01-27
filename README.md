@@ -11,7 +11,7 @@ this repository is your one-stop solution to understanding and mastering DSA con
    <ul>
       <li>Arrays</li>
       <li>Linked Lists</li>
-      <li>Stacks/li>
+      <li>Stacks</li>
       <li>Queues</li>
       <li>Trees</li>
       <li>Graphs</li>
