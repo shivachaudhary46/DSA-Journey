@@ -12,9 +12,6 @@ You are given a queue with integer elements. The task is to reverse the order of
 
 q[] = [4, 3, 1, 10, 2, 6]
 
-makefile
-Copy
-
 **Output:**
 
 [6, 2, 10, 1, 3, 4]
@@ -32,5 +29,4 @@ After reversing the given elements of the queue, the resultant queue will be:
 2. The stack can help store elements temporarily while popping and pushing them back to achieve the reversed order.
 3. If recursion is used, keep dequeueing elements, reverse the rest of the queue, and then enqueue the element backwards
 
-### expected time complexity is O(n) because O(n)+O(n) = 2O(n) =  O(n).
-space complexity:  O(n)
+### expected time complexity O(n)<br> = O(n)+O(n)<br> = 2O(n)<br> =  O(n).<br> space complexity<br>  O(n)
