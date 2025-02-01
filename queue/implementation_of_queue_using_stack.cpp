@@ -46,5 +46,4 @@ int main(){
 
     q.dequeue();
     cout<<q.top()<<endl;
-
 }
