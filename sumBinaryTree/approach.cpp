@@ -102,7 +102,7 @@ void buildLevelTree(Node* &root){
                 if(temp -> left){
                     q.push(temp->left);
                 }
-                if(temp -> right){
+                if(temp -> right){ 
                     q.push(temp->right);
                 }
             }
