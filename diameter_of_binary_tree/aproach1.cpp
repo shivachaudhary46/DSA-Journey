@@ -78,6 +78,7 @@ class Node{
         if(root == NULL){
             pair<int, int> p;
             p = make_pair(0, 0);
+            return p;
         }
 
         pair<int, int> leftans = diameter_of_tree(root -> left);
