@@ -47,7 +47,8 @@
         "set": "cpp",
         "print": "cpp",
         "queue": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "ios": "cpp"
     },
     "editor.fontLigatures": true
 }
