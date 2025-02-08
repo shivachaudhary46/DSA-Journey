@@ -12,7 +12,7 @@ void maximum_rowArray(int arr[][3], int row, int col){
 void print_array(int arr[][3], int row, int col){
     cout<<"printing the array* "<<endl;
     for(int i=0; i<row; i++){
-        for(int j=0; j<3; j++){in
+        for(int j=0; j<3; j++){
             cout<<arr[i][j]<<" ";
         }
         cout<<endl;
