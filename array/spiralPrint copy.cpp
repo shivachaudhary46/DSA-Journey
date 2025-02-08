@@ -1,4 +1,4 @@
-#include<iostream>
+ #include<iostream>
 using namespace std;
 vector<int> spiralPrint(int matrix[][5]){
     vector<int> ans;
