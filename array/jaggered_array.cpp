@@ -9,7 +9,7 @@ int main(){
      int sizes[] = {4, 3, 1}; //each row will have different no of codes 
      //pointer creation with 3*4+8bytes of the row 
      int **arr = new int* [row];
-8h
+
     //creating array for col with each sizes 
     for(int i=0; i<row; i++){
         *(arr+i) = new int[sizes[i]];
