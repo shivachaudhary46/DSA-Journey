@@ -28,9 +28,9 @@ int findMaximumDist(int nums[], int n, int k){
 		}else{
 			e=mid-1;
 		}
-		mid=s+(e-s)/2;
+		mid=s+(e- s)/2;
 	}
-	return s;
+	return e;
 }
 int main(){
 	int stalls[]={ 1,2,4,8,9};
