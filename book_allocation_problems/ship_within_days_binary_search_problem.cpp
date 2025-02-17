@@ -1,10 +1,10 @@
-#include<iostream>
+  #include<iostream>
 using namespace std;
 
    // Check if it's possible to ship all packages within 'days' using 'capacity'
     bool checkCapacity(vector<int>& weights, int days, int capacity) {
         int currentCapacity = capacity, daysCount = 1, n = weights.size();
-        
+         
         for(int i = 0; i < n; i++) {
             // If current package can fit in the remaining capacity for the current day
             if(currentCapacity >= weights[i]) {
