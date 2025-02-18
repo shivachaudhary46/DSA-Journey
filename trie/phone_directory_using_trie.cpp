@@ -79,25 +79,43 @@ class Trie{
         return utilSearch(root, word);
     }
 
-    /*deletion of the string */
-    void recursiveDel(TrieNode* root, string word){
-        
-        //base case
-        if(word.length() == 0){
-            root->isTerminal = false;
+    void printSuggestions(trieNode* curr, vector<string> temp, string path){
+
+        if(curr -> isterminal){
+            temp.push_back(path);
+            return;
         }
 
-        int index = word[0]-'A';
+        for(char ch='A'; ch<='Z'; ch++){
+            TrieNode* next = curr->children[ch-'A'];
+            printSuggestions(next, temp, path);
+            path.pop_back();
+        }
+    }
 
-        if(root->children[index] != NULL){
-            root->isTerminal = false;
+    void phoneDirectory(trieNode* root, string str){
+        TrieNode* prev = root;
+        vector<vector<string> > output;
+        string path = "";
+
+        for(int i=0; i<str.length(); i++){
+            char lastCh = str[i];
+            path.push_back(lastCh);
+
+            TrieNode* curr = prev->children[lastCh-'A'];
+            vector<string> temp;
+            printSuggestions(curr, temp, path);
+
+            if(curr == NULL){
+                break;
+            }
+
+            output.push_back(temp);
+            temp.clear();
         }
 
-        
-    }
-    void deletionWord(string word){
 
-    }
+    } 
 };
 int main(){
     Trie t;
