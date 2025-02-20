@@ -47,7 +47,7 @@ class Node{
             Node* newNode = new Node(data);
             newNode->next = newNode;
             tail = newNode;
-            return;
+            return ;
         }else{
 
             //when linked list has certain list
