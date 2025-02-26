@@ -70,5 +70,4 @@ int main(){
 
     cout<<"first negative integer in "<<k<<" windows: ";
     print(ans);
-
 }
