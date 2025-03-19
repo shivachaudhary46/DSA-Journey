@@ -73,5 +73,4 @@ int main(){
         cout<<"stack is not empty"<<endl;
     }
 
-    
 }
