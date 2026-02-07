@@ -2,15 +2,17 @@ def isPossible(arr, n, m, mid):
     pageSum = 0 
     studentCount = 1 
 
-    for i in range(len(arr)): 
+    for i in range(n):
         if (pageSum + arr[i] <= mid): 
             pageSum += arr[i]
 
         else:
             studentCount = studentCount + 1 
-            if studentCount < m | arr[i] > mid : 
-                return -1 
+            if studentCount > m or arr[i] > mid : 
+                return False
             pageSum = arr[i]
+    
+    return True
 
 # n is number of the student
 # m is minimum number of books assigned to each students 
@@ -28,17 +30,17 @@ def bookAllocation(arr, n, m):
 
     e = total 
 
-    mid = s + (e-s) / 2 
+    mid = (s + (e-s)) // 2 
     ans = 0
 
-    while (s <= e):
+    while (s < e):
         if isPossible(arr, n, m, mid): 
             ans = mid 
             e = mid 
         else: 
             s = mid + 1 
 
-        mid = s + (e-s) / 2 
+        mid = (s + (e-s)) // 2 
     
     return ans 
 
